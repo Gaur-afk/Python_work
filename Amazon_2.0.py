@@ -1,4 +1,4 @@
-class Amazon:
+class Online_Shopping:
 
     def __init__(self, name, url):
         self.name = name.title()
@@ -62,7 +62,7 @@ class Item:
         self.qty = qty
 
 
-amazon = Amazon('Amazon', 'www.amazon.com')
+amazon = Online_Shopping('Amazon', 'www.amazon.com')
 Cheese = Item('Cheese', '1.50', '50')
 Chicken = Item('Chicken', '5.00', '15')
 Grapes = Item('Grapes', '3.00', '150')
